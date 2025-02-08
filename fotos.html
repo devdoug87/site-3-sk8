@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fotos</title>
+  <link rel="shortcut icon" href="icons8-skateboard-30.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=block" rel="stylesheet">
+</head>
+<body>
+ 
+  <div class="menu-container">
+    <!-- Menu -->
+    <nav class="menu" id="menu">
+      <!-- Ícone de fechamento -->
+      <div class="close-icon" id="closeIcon">✖</div>
+      <ul>
+        <li><a href="index.html"><span class="material-symbols-outlined">
+          home
+          </span>Home</a></li>
+        <li><a href="fotos.html" target="_self" rel="noopener noreferrer"><span class="material-symbols-outlined">
+          info
+          </span>Fotos</a></li>
+        <li><a href="videos.html" target="_blank" rel="noopener noreferrer"><span class="material-symbols-outlined">
+          wallet
+          </span>Video</a></li>
+        <li><a href="#contact"><span class="material-symbols-outlined">
+          call
+          </span>Contato</a></li>
+      </ul>
+       <!-- utilizamos o nome  material-symbols-outlined como class para usar icones pq foi oq funcionou,tem diferença nos nomes material-icons exibe os icones "filled" (sólido) por padrão.
+material-symbols-outlined exibe os ícones no estilo "outlined" (contorno).
+material-symbols pode ser usado para qualquer estilo de ícone (filled, outlined, rounded), dependendo do link que você carrega.  -->
+    </nav>
+    <!-- Botão para abrir o menu -->
+    <div class="menu-icon" id="menuIcon">☰</div>
+  </div>
+  <main>
+   
+
+    <div class="carousel">
+      <div>
+        <input type="radio" id="slide1" name="carousel" checked>
+        <input type="radio" id="slide2" name="carousel" >
+        <input type="radio" id="slide3" name="carousel" >
+
+        <div class="slides">
+          <div class="slide">
+            <img src="img/IMG-20180916-WA0020.jpg" alt="slide1"></div>
+            <div class="slide">
+              <img src="img/IMG-20180916-WA0005.jpg" alt="slide2"></div>  
+              <div class="slide">
+              <img src="img/IMG-20180916-WA0002.jpg" alt="slide3"></div>
+    </div>
+      </div>
+
+    <div class="controles">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+    </div>
+    </div>
+    
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+/* Reset básico */
+html ,body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Evita rolagem quando o menu está aberto */
+  height: auto;
+  width: 100%;
+  
+}
+
+/* tinha feita uma .background para a img de fundo, só que ela n cobria toda extensão do site por isso sempre tem que ser feito no dentro do <body> */
+
+/* paleta de cores adobe
+#8C5D65
+#252625
+#F29F05
+#F28705
+#F2B279
+*/
+body {
+    display: block;
+    min-height: 100vh;
+    background-image: url(streets.jpg);     
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+header {
+  background-color: #8C5D65
+  
+}
+header > h1 {
+  height: 100px;
+  margin: 0px;
+  text-align: center;
+  padding-top: 10px;
+}
+header > nav {
+  background-color: rgb(27, 23, 23);
+  text-align: center;
+  height: 40px;
+  padding-top: 15px;
+}
+header > nav > a {
+  display: inline-block;
+  padding: 5px 15px; 
+    color:  darkgreen;
+    width: auto;
+    text-decoration: none;
+  
+}
+header > nav > a:hover {
+  background-color: rgba(222, 184, 135, 0.112);
+  color: black;
+  transition: 1s;
+  border-radius: 10px;
+}
+.foto-skate {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto-skate img {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  max-width: 70vw;
+  max-height: 90vh;
+}
+.texto-skate {
+  max-width: 600px;
+  text-align: justify;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #8C5D65; 
+  
+  
+}
+.texto-skate h2 {
+  text-align: center;
+}
+.texto-skate p {
+  font-size: 19px;
+  line-height: 1.6;
+}
+main {
+
+} 
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding-top: 50px;
+  
+}
+.video2 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding-top: 50px;
+  padding-bottom: 130px;
+}
+.carousel {
+  padding-top: 75px;
+  margin: 0 auto;
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+.slides input {
+  display: none;
+}
+.slide {
+  min-width: 100%;
+  transition: opacity 0.5s ease;
+}
+.slide img {
+  width: 100%;
+  display: block;
+}
+.controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 5px;
+}
+.controls label {
+  cursor: pointer;
+  width: 100%;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  display: block;
+  transition: background 0.3s ease;
+}
+input:checked + label {
+  background: #333;
+}
+#slide1:checked ~ .slides {
+  transform: translateX(0%);
+}
+#slide2:checked ~ .slides {
+  transform: translateX(-100%);
+}
+#slide3:checked ~ .slides {
+  transform: translateX(-200%);
+}
+
+
+main > h2 {
+  padding: 5px 10px;
+  color: red;
+  
+}
+.texto {
+  
+}
+.menu-container {
+  position: relative;
+}
+
+/* Ícone do menu hambúrguer */
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+  transition: opacity 0.3s ease; /* Suaviza a transição de visibilidade */
+}
+
+/* Esconde o ícone do hambúrguer quando o menu está aberto */
+.menu.open ~ .menu-icon {
+  opacity: 0; /* Torna o ícone invisível */
+  pointer-events: none; /* Evita que ele seja clicável */
+}
+
+/* Menu lateral esquerdo */
+.menu {
+  background-color: #333;
+  color: white;
+  height: 100vh;
+  width: 230px;
+  position: fixed;
+  top: 0;
+  left: -250px; /* Inicialmente fora da tela à esquerda */
+  transition: left 0.3s ease;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.menu ul li {
+  margin: 15px 0;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.menu ul li a:hover {
+  
+  color: rgb(236, 188, 67);
+ 
+}
+
+/* Menu aberto */
+.menu.open {
+  left: 0; /* Move o menu para dentro da tela */
+}
+
+/* Ícone de fechamento */
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 200;
+}
+@media (max-width:768px) {
+  
+}
+  
