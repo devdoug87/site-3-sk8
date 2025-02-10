@@ -110,7 +110,7 @@ main {
   padding-bottom: 130px;
 }
 .carousel {
-  padding-top: 75px;
+  padding-top:75px;
   margin: 0 auto;
   width: 50%;
   overflow: hidden;
@@ -247,6 +247,12 @@ main > h2 {
   z-index: 200;
 }
 @media (max-width:768px) {
-  
+  .carousel {
+    padding-top:150px;
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+  }
 }
   
