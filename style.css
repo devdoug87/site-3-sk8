@@ -242,5 +242,18 @@ main > h2 {
     overflow: hidden;
     position: relative;
   }
+
+  .texto-skate {
+    max-width: 80%;
+    border-radius: 10px 10px;
+    text-align: justify;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(80, 79, 79); 
+    color: #F29F05;
+    
+  }
+
 }
+
   
