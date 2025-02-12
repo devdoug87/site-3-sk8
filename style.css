@@ -272,6 +272,17 @@ iframe {
     width: 100%; /* Garante que o vídeo ocupe todo o espaço disponível */
     aspect-ratio: 16 / 9; /* Mantém a proporção do vídeo */
 }
+
+body {
+  display: block;
+  min-height: 100vh;
+  background-image: url(streets.jpg);     
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-position: center center;
+  /* imagem de fundo ficou centralizada certim com essas config */
+}
 }
 
   
