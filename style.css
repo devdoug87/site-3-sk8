@@ -287,6 +287,11 @@ body {
 .menu, .menu-icon {
   display: none;       /*com esse codigo o menu lateral e icone do manu lateral vai sumir em telas menores q 768px */
 }
+
 }
 
-  
+@media (min-width: 769px) {
+  header > nav {
+    display: none; /* essa config faz com que em telas grandes o menu de links desapareça e só apareça em telas menores de 768px*/
+  }
+}
