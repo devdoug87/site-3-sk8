@@ -283,6 +283,10 @@ body {
   background-position: center center;
   /* imagem de fundo ficou centralizada certim com essas config */
 }
+
+.menu, .menu-icon {
+  display: none;       /*com esse codigo o menu lateral e icone do manu lateral vai sumir em telas menores q 768px */
+}
 }
 
   
