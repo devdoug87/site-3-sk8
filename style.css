@@ -236,7 +236,7 @@ main > h2 {
 }
 @media (max-width:768px) {
   .carousel {
-    padding-top:150px;
+    padding-top:110px;
     margin: 0 auto;
     width: 80%;
     overflow: hidden;
@@ -259,7 +259,7 @@ main > h2 {
     height: auto; /* Mantém a proporção correta */
     max-width: 100%;
     padding-bottom: 20px; /* Reduz espaçamentos */
-    padding-left: 30px;
+    padding-left: 25px;
     padding-top: 80px;
 }
 
