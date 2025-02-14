@@ -26,6 +26,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;  
+    background-attachment: scroll;
 }
 
 
@@ -276,10 +277,13 @@ iframe {
 body {
   display: block;
   min-height: 100vh;
+  height: 100%;
+  overflow: hidden;
   background-image: url(streets.jpg);     
-  background-position: center center;
+  background-position: center center ;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  background-attachment: fixed;
   
   /* imagem de fundo ficou centralizada certim com essas config */
 }
@@ -313,4 +317,14 @@ body {
 .video2 {
   padding-bottom: 90px;
 }
+.carousel {
+  padding-top:70px;
+  margin: 0 auto;
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  
+}
+
 }
