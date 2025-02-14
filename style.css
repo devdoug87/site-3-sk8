@@ -337,4 +337,22 @@ body {
   
 }
 
+@media (orientation: landscape) {
+  .carousel {
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    text-align: center; 
+  } 
+}
+
+.video1, .video2 {
+  width: 90%; /* Ajusta a largura para telas pequenas */
+  height: auto; /* Mantém a proporção correta */
+  max-width: 100%;
+  padding: 20px;
+  
+}
 }
