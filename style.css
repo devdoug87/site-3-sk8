@@ -244,15 +244,24 @@ main > h2 {
     position: relative;
   }
 
+  .foto-skate img {
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    max-width: 80vw;
+    max-height: 95vh;
+  }
   .texto-skate {
     max-width: 80%;
     border-radius: 10px 10px;
     text-align: justify;
-    margin: 20px auto;
+    margin: 15px auto;
     padding: 20px;
     background-color: rgb(80, 79, 79); 
     color: #F29F05;
     font-size: 1rem;
+    word-spacing: 0.1em;
+    line-height: 1.4;
     
   }
 
