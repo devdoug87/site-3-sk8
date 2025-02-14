@@ -279,7 +279,7 @@ body {
   background-image: url(streets.jpg);     
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: 100% 100%;
   
   /* imagem de fundo ficou centralizada certim com essas config */
 }
