@@ -236,7 +236,7 @@ main > h2 {
 }
 @media (max-width:768px) {
   .carousel {
-    padding-top:110px;
+    padding-top:150px;
     margin: 0 auto;
     width: 80%;
     overflow: hidden;
@@ -294,4 +294,23 @@ body {
   header > nav {
     display: none; /* essa config faz com que em telas grandes o menu de links desapareça e só apareça em telas menores de 768px*/
   }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+  .video1, .video2 {
+    width: 90%; /* Ajusta a largura para telas pequenas */
+    height: auto; /* Mantém a proporção correta */
+    max-width: 100%;
+    padding-bottom: 20px; /* Reduz espaçamentos */
+    padding-left: 30px;
+    padding-top: 80px;
+}
+.video1 {
+  padding-bottom: 90px;
+  padding-top: 120px;
+} 
+
+.video2 {
+  padding-bottom: 90px;
+}
 }
