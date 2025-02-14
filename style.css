@@ -26,7 +26,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;  
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 
@@ -248,10 +248,11 @@ main > h2 {
     max-width: 80%;
     border-radius: 10px 10px;
     text-align: justify;
-    margin: 50px auto;
+    margin: 20px auto;
     padding: 20px;
     background-color: rgb(80, 79, 79); 
     color: #F29F05;
+    font-size: 1rem;
     
   }
 
@@ -279,7 +280,7 @@ body {
   min-height: 100vh;
   height: 100%;
   overflow: hidden;
-  background-image: url(streets.jpg);     
+  background-image: url(streetsphone.jpg);     
   background-position: center center ;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -307,7 +308,7 @@ body {
     max-width: 100%;
     padding-bottom: 20px; /* Reduz espaçamentos */
     padding-left: 30px;
-    padding-top: 80px;
+    
 }
 .video1 {
   padding-bottom: 90px;
