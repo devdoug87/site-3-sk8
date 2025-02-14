@@ -23,7 +23,7 @@ body {
     display: block;
     min-height: 100vh;
     background-image: url(streets.jpg);     
-    background-attachment: fixed;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;  
 }
@@ -277,10 +277,10 @@ body {
   display: block;
   min-height: 100vh;
   background-image: url(streets.jpg);     
-  background-attachment: fixed;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;  
-  background-position: center center;
+  
   /* imagem de fundo ficou centralizada certim com essas config */
 }
 
