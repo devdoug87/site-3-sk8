@@ -301,7 +301,7 @@ body {
   display: block;
   min-height: 100vh;
   height: 100%;
-  background: #585151fb;
+  background:linear-gradient(to bottom, #c5bdbd 15%, #8b8989 35%, #302d2d 50%);
   overflow: hidden;   
   background-position: center ;
   background-repeat: no-repeat;
@@ -316,8 +316,6 @@ body {
 
 .menu, .menu-icon {
   display: none;       /*com esse codigo o menu lateral e icone do manu lateral vai sumir em telas menores q 768px */
-}
-
 }
 
 @media (min-width: 769px) {
