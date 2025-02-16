@@ -261,7 +261,7 @@ main > h2 {
   .foto-skate img { /* teste*/ 
     height: auto;
     position: relative;
-    padding-top: -50px;
+    top: -50px;
     display: block;
     max-width: 85%;
     max-height: 90vh;
