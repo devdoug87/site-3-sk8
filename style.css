@@ -261,15 +261,14 @@ main > h2 {
   .foto-skate {
     height: auto;
     margin: 0;
-    padding: 0;
-    position: relative;
-    top: -20px; /* Ajuste conforme necessário */
+    padding-top: 30px;
+    position: relative; /* Ajuste conforme necessário */
   }
 
   .foto-skate img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
-    padding: 0;
+    padding: 0 20px;
     margin: 0;
   }
 
