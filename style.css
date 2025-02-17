@@ -382,4 +382,9 @@ body {
   .menu {
     padding-top: 180px;
   }
+
+  .menu-icon {
+    color: #F29F05;
+    height: 50px;
+  }
 }
