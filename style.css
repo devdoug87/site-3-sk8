@@ -50,6 +50,8 @@ header > nav > a:hover {
   transition: 1s;
   border-radius: 10px;
 }
+
+
 .foto-skate {
   height: 100vh;
   width: 100vw;
@@ -350,6 +352,10 @@ body {
   
 }
 
+.menu, .menu-icon {
+  display: block;       /*com esse codigo o menu lateral e icone do manu lateral vai sumir em telas menores q 768px */
+}
+}
 @media (orientation: landscape) {
   .carousel {
     padding: 20px;
@@ -359,7 +365,7 @@ body {
     position: relative;
     text-align: center; 
   } 
-}
+
 
 .video1, .video2 {
   width: 90%; /* Ajusta a largura para telas pequenas */
@@ -368,4 +374,9 @@ body {
   padding: 20px;
   
 }
+}
+@media (min-width:1025px) {
+  .menu, .menu-icon {
+    display: block;       /*com esse codigo o menu lateral e icone do manu lateral vai sumir em telas menores q 768px */
+  }
 }
